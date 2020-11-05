@@ -1,25 +1,21 @@
 {
-
-  "name": "Example",
-
-  "description": "Example",
-
-  "version": "0.0.0",
-
-  "main": "bot.js",
-
-  "scripts": {
-
-    "start": "node bot.js"
-
-  },
-
+  "name": "fiverr-order",
+  "version": "1.0.0",
+  "description": "unknown game calculator",
+  "main": "index.js",
   "dependencies": {
-
-    "discord.js": "11.1.0",
-
-    "request": "2.81.0"
-
-  }
-
+    "discord.io": "^2.5.3",
+    "discord.js": "^12.4.1",
+    "parse-ms": "^2.1.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mp3"
+  ],
+  "author": "Dalibor Trampota",
+  "license": "MIT"
 }
